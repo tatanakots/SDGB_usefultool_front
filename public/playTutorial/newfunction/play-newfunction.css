@@ -1,0 +1,167 @@
+/*! ©SEGA */
+.NewFunction01 {
+	position: relative;
+	margin: -10px 0 60px;
+	font-size: 0
+}
+
+@media screen and (min-width:601px) {
+	.NewFunction01 {
+		height: 1548px;
+		background: url(assets/pc/play_new01.png)
+	}
+}
+
+@media screen and (max-width:600px) {
+	.NewFunction01 {
+		height: 1457px;
+		background: url(assets/sp/play_new01.png);
+		background-size: 100%
+	}
+}
+
+.NewFunction02 {
+	position: relative;
+	margin-bottom: 60px;
+	font-size: 0
+}
+
+@media screen and (min-width:601px) {
+	.NewFunction02 {
+		height: 6135px;
+		background: url(assets/pc/play_new02.png);
+		background-size: 100%
+	}
+}
+
+@media screen and (max-width:600px) {
+	.NewFunction02 {
+		display: block;
+		width: 100%;
+		height: 2630px;
+		background: url(assets/sp/play_new02.png);
+		background-size: 100%
+	}
+}
+
+.NewFunction03 {
+	position: relative;
+	margin-bottom: 60px;
+	font-size: 0
+}
+
+@media screen and (min-width:601px) {
+	.NewFunction03 {
+		height: 2835px;
+		background: url(assets/pc/play_new03.png);
+		background-size: 100%
+	}
+}
+
+@media screen and (max-width:600px) {
+	.NewFunction03 {
+		height: 1200px;
+		background: url(assets/sp/play_new03.png);
+		background-size: 100%
+	}
+}
+
+.NewFunction03-btn {
+	position: absolute;
+	margin: auto
+}
+
+.NewFunction03-btn:hover {
+	filter: brightness(105%);
+	cursor: pointer
+}
+
+.NewFunction03-btn:active {
+	filter: brightness(95%);
+	transform: translateY(1px)
+}
+
+@media screen and (min-width:601px) {
+	.NewFunction03-btn {
+		top: 2000px;
+		left: 0;
+		right: 0;
+		width: 668px;
+		height: 88px;
+		background: url(assets/pc/play_dxnet.png)
+	}
+}
+
+@media screen and (max-width:600px) {
+	.NewFunction03-btn {
+		top: 1478px;
+		left: 0;
+		right: 0;
+		width: 90%;
+		height: 78px;
+		background: url(assets/sp/play_dxnet.png);
+		background-size: 100%
+	}
+}
+
+.NewFunction03-btn a {
+	display: block;
+	width: 100%
+}
+
+@media screen and (min-width:601px) {
+	.NewFunction03-btn a {
+		height: 88px
+	}
+}
+
+@media screen and (max-width:600px) {
+	.NewFunction03-btn a {
+		height: 88px
+	}
+}
+
+.NewFunction04 {
+	position: relative;
+	font-size: 0
+}
+
+@media screen and (min-width:601px) {
+	.NewFunction04 {
+		margin-top: 50px;
+		height: 1278px;
+		background: url(assets/pc/play_new04.png)
+	}
+}
+
+@media screen and (max-width:600px) {
+	.NewFunction04 {
+		height: 1296px;
+		background: url(assets/sp/play_new04.png);
+		background-size: 100%
+	}
+}
+
+h3.titleDx {
+	margin-bottom: 30px
+}
+
+@media screen and (min-width:601px) {
+	.PlayWrapper {
+		width: 932px;
+		margin: 0 auto
+	}
+}
+
+@media screen and (max-width:600px) {
+	.PlayWrapper {
+		width: 100%
+	}
+}
+
+@media screen and (max-width:600px) {
+	.maiPlaySub {
+		width: 95%;
+		margin: 0 auto 20px
+	}
+}

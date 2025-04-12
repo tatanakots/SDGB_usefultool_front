@@ -1,0 +1,78 @@
+.m_l_30 {
+    margin-left: 30px;
+}
+
+.container_black {
+    display: block;
+    width: 240px;
+    height: auto;
+    margin: 20px auto;
+    min-height: 100%;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 0 2px #000000, 0 0 0 6px #fff, 1px 8px 8px rgba(0, 0, 0, 0.2), 0 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.player_namepending {
+    display: block;
+    position: absolute;
+    top: 145px;
+    left: -2px;
+}
+
+.player_namepending img {
+    width: 73%;
+    height: 73%;
+}
+
+.modal-top {
+    font-size: 10%;
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+}
+
+#resultModal {
+    display: none;
+}
+
+.modaal-container {
+    max-width: 552px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.modaal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.modaal-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*
+.modaal-close {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+*/
+
+.modaal-body {
+    font-size: 16px;
+    color: red;
+}
+
+.modaal-footer {
+    text-align: right;
+}
+
+.modaal.modaal-active {
+    display: block;
+}

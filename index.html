@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" />
+	<script>
+		var baseW = 768;
+		var iOSW = 0;
+		var ua = navigator.userAgent.toLowerCase();
+		var isiOS = (ua.indexOf("iphone") > -1) || (ua.indexOf("ipod") > -1) || (ua.indexOf("ipad") > -1);
+		if(isiOS){
+			iOSW = document.documentElement.clientWidth;
+		}
+		window.addEventListener("resize", updateMetaViewport, false);
+		window.addEventListener("orientationchange", updateMetaViewport, false);
+		var ev = document.createEvent("UIEvent");
+		ev.initEvent("resize", true, true)
+		window.dispatchEvent(ev);
+		function updateMetaViewport(){
+			var viewportContent;
+			var w = window.outerWidth;
+			if(isiOS){
+				w = iOSW;
+			}
+			if(w < baseW){
+				viewportContent = "width=480,initial-scale=" + w/480 + ",user-scalable=yes,shrink-to-fit=no";
+			}else{
+				viewportContent = "width=device-width,initial-scale=1.0,user-scalable=yes,shrink-to-fit=no";
+			}
+			document.querySelector("meta[name='viewport']").setAttribute("content", viewportContent);
+		}
+	</script>
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8; IE=EmulateIE9" />
+	<meta http-equiv="Pragma" CONTENT="no-cache">
+	<meta http-equiv="Cache-Control" CONTENT="no-cache">
+	<meta http-equiv="Expires" CONTENT="-1">
+	<meta name="robots" content="INDEX, FOLLOW" />
+	<meta name="author" content="(C) SEGA">
+	<meta name="copyright" content="&copy;SEGA">
+	<meta name="description" content="此网页可浏览SEGA(世嘉)音乐机台「舞萌DX」的个人游戏记录。">
+	<meta name="keywords" content="舞萌DX,maimai DX,maimai deluxe,sega" />
+	<meta name="theme-color" content="#51bcf3">
+	<meta name="mkd" content="">
+
+	<title>舞萌DX科技专页</title>
+	<link rel="stylesheet" href="/css/modaal.min.css" />
+	<link rel="stylesheet" href="/css/common.css" />
+	<link rel="stylesheet" href="/css/unique.css" />
+	<link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/img/apple-touch-icon.png">
+    <link rel="preload" href="/src/main.js" as="script">
+</head>
+
+<body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js" defer></script>
+    <script>
+        // Example JavaScript to change language settings based on user's choice or browser settings
+        document.addEventListener('DOMContentLoaded', () => {
+            const userLang = navigator.language || navigator.userLanguage;
+            // Logic to determine the language (simplified here)
+            const lang = userLang.startsWith('zh') ? 'zh' : userLang.startsWith('ja') ? 'ja' : 'en';
+            document.documentElement.setAttribute('lang', lang);
+
+            // Update meta tags based on lang
+            // This should ideally be done via server-side rendering or JavaScript framework's i18n solution
+            // TODO
+        });
+    </script>
+</body>
+
+</html>

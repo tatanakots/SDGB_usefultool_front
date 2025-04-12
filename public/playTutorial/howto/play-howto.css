@@ -1,0 +1,225 @@
+/*! ©SEGA */
+h3.titleHowto {
+	margin-bottom: 30px
+}
+
+@media screen and (min-width:601px) {
+	.PlayWrapper {
+		width: 932px;
+		margin: 0 auto
+	}
+}
+
+@media screen and (max-width:600px) {
+	.PlayWrapper {
+		width: 100%
+	}
+}
+
+.howto01 {
+	margin-bottom: 10px;
+	font-size: 0
+}
+
+@media screen and (min-width:601px) {
+	.howto01 {
+		height: 1460px;
+		background: url(assets/pc/play_howto01.png);
+		background-size: 100%
+	}
+}
+
+@media screen and (max-width:600px) {
+	.howto01 {
+		height: 629px;
+		background: url(assets/sp/play_howto01.png);
+		background-size: 100%
+	}
+}
+
+.howto02 {
+	margin-bottom: 60px;
+	font-size: 0
+}
+
+@media screen and (min-width:601px) {
+	.howto02 {
+		height: 5300px;
+		background: url(assets/pc/play_howto02.png);
+		background-size: 100%
+	}
+}
+
+@media screen and (max-width:600px) {
+	.howto02 {
+		height: 2260px;
+		background: url(assets/sp/play_howto02.png);
+		background-size: 100%
+	}
+}
+
+.howto03 {
+	margin-bottom: 10px;
+	font-size: 0
+}
+
+@media screen and (min-width:601px) {
+	.howto03 {
+		height: 940px;
+		background: url(assets/pc/play_howto03.png)
+	}
+}
+
+@media screen and (max-width:600px) {
+	.howto03 {
+		height: 765px;
+		background: url(assets/sp/play_howto03.png);
+		background-size: 100%
+	}
+}
+
+.howto04 {
+	margin-bottom: 10px;
+	font-size: 0
+}
+
+@media screen and (min-width:601px) {
+	.howto04 {
+		height: 937px;
+		background: url(assets/pc/play_howto04.png)
+	}
+}
+
+@media screen and (max-width:600px) {
+	.howto04 {
+		height: 765px;
+		background: url(assets/sp/play_howto04.png);
+		background-size: 100%
+	}
+}
+
+.howto05 {
+	margin-bottom: 10px;
+	font-size: 0
+}
+
+@media screen and (min-width:601px) {
+	.howto05 {
+		height: 860px;
+		background: url(assets/pc/play_howto05.png)
+	}
+}
+
+@media screen and (max-width:600px) {
+	.howto05 {
+		height: 637px;
+		background: url(assets/sp/play_howto05.png);
+		background-size: 100%
+	}
+}
+
+.howto06 {
+	margin-bottom: 60px;
+	font-size: 0
+}
+
+@media screen and (min-width:601px) {
+	.howto06 {
+		height: 840px;
+		background: url(assets/pc/play_howto06.png)
+	}
+}
+
+@media screen and (max-width:600px) {
+	.howto06 {
+		height: 649px;
+		background: url(assets/sp/play_howto06.png);
+		background-size: 100%
+	}
+}
+
+.HowToBtnBox {
+	font-size: 0;
+	margin: 50px auto 0
+}
+
+@media screen and (min-width:601px) {
+	.HowToBtnBox {
+		width: 846px
+	}
+}
+
+.HowToBtnBox a.music {
+	display: block
+}
+
+.HowToBtnBox a.music:hover {
+	filter: brightness(105%);
+	cursor: pointer
+}
+
+.HowToBtnBox a.music:active {
+	filter: brightness(95%);
+	transform: translateY(1px)
+}
+
+@media screen and (min-width:601px) {
+	.HowToBtnBox a.music {
+		width: 846px;
+		height: 102px;
+		background: url(assets/pc/play_music.png)
+	}
+}
+
+@media screen and (max-width:600px) {
+	.HowToBtnBox a.music {
+		width: 100%;
+		height: 84px;
+		background: url(assets/sp/play_music.png);
+		background-size: 100%
+	}
+}
+
+.HowToBtnBox a.newfunciton {
+	display: block
+}
+
+.HowToBtnBox a.newfunciton:hover {
+	filter: brightness(105%);
+	cursor: pointer
+}
+
+.HowToBtnBox a.newfunciton:active {
+	filter: brightness(95%);
+	transform: translateY(1px)
+}
+
+@media screen and (min-width:601px) {
+	.HowToBtnBox a.newfunciton {
+		width: 846px;
+		height: 109px;
+		background: url(assets/pc/play_newfunction.png)
+	}
+}
+
+@media screen and (max-width:600px) {
+	.HowToBtnBox a.newfunciton {
+		width: 100%;
+		height: 84px;
+		background: url(assets/sp/play_newfunction.png);
+		background-size: 100%
+	}
+}
+
+@media screen and (max-width:600px) {
+	.maiPlaySub {
+		width: 95%;
+		margin: 0 auto 20px
+	}
+}
+
+.dotsLine {
+	width: 100%;
+	height: 10px;
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABEIAAAAKCAYAAACwhvtrAAABK0lEQVR4nO3dQQqCUBAG4LF9nSw7lefyAnWabD8hPEGC0tciHvH9MCA4fLMfZIzMXKrPzDEzp1Lz83n1vrZ4PB6Px+PxeDwej8fj8ZrylqYh32f4YiiPx+PxeDwej8fj8Xg8XnNelK3IVvqKoTwej8fj8Xg8Ho/H4/F4TXpRPhHZylgxmMfj8Xg8Ho/H4/F4PB6vSa/LzHtEHONzpog4bfQs4fF4PB6Px+PxeDwej8dr0jvsxLqdfXvD4/F4PB6Px+PxeDwej/dzb16E3HY0XitQHo/H4/F4PB6Px+PxeLw2vXLIZCs1x0l4PB6Px+PxeDwej8fj8Zr0lma/++HxeDwej8fj8Xg8Ho/39966+VIurD5KjZWbnNfi8Xg8Ho/H4/F4PB6Px2vHy4wnJPFPEgM9BJQAAAAASUVORK5CYII=")
+}

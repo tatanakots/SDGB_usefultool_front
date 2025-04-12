@@ -1,0 +1,314 @@
+/*! ©SEGA */
+.about01 {
+	position: relative;
+	margin: -10px 0 60px;
+	font-size: 0
+}
+
+@media screen and (min-width:601px) {
+	.about01 {
+		height: 2575px;
+		background: url(assets/sp/play_about01.png);
+		background-size: 100%;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.about01 {
+		height: 1106px;
+		background: url(assets/sp/play_about01.png);
+		background-size: 100%
+	}
+}
+
+.about01-btn {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto
+}
+
+.about01-btn:hover {
+	filter: brightness(105%);
+	cursor: pointer
+}
+
+.about01-btn:active {
+	filter: brightness(95%);
+	transform: translateY(1px)
+}
+
+@media screen and (min-width:601px) {
+	.about01-btn {
+		top: 585px;
+		width: 688px;
+		height: 88px;
+		background: url(assets/pc/play_music.png)
+	}
+}
+
+@media screen and (max-width:600px) {
+	.about01-btn {
+		top: 712px;
+		width: 90%;
+		height: 78px;
+		background: url(assets/sp/play_music.png);
+		background-size: 100%
+	}
+}
+
+.about01-btn a {
+	display: block;
+	width: 100%
+}
+
+@media screen and (min-width:601px) {
+	.about01-btn a {
+		height: 88px
+	}
+}
+
+@media screen and (max-width:600px) {
+	.about01-btn a {
+		height: 88px
+	}
+}
+
+.about02 {
+	position: relative;
+	margin-bottom: 60px;
+	font-size: 0
+}
+
+@media screen and (min-width:601px) {
+	.about02 {
+		height: 1235px;
+		background: url(assets/sp/play_about02.png);
+		background-size: 100%
+	}
+}
+
+@media screen and (max-width:600px) {
+	.about02 {
+		height: 531px;
+		background: url(assets/sp/play_about02.png);
+		background-size: 100%
+	}
+}
+
+.about03 {
+	position: relative;
+	margin-bottom: 60px;
+	font-size: 0
+}
+
+@media screen and (min-width:601px) {
+	.about03 {
+		height: 2000px;
+		background: url(assets/sp/play_about03.png);
+		background-size: 100%
+	}
+}
+
+@media screen and (max-width:600px) {
+	.about03 {
+		height: 853px;
+		background: url(assets/sp/play_about03.png);
+		background-size: 100%
+	}
+}
+
+.about03-btn {
+	position: absolute;
+	margin: auto
+}
+
+.about03-btn:hover {
+	filter: brightness(105%);
+	cursor: pointer
+}
+
+.about03-btn:active {
+	filter: brightness(95%);
+	transform: translateY(1px)
+}
+
+@media screen and (min-width:601px) {
+	.about03-btn {
+		top: 720px;
+		left: 50px;
+		width: 688px;
+		height: 88px;
+		background: url(assets/pc/play_aime.png)
+	}
+}
+
+@media screen and (max-width:600px) {
+	.about03-btn {
+		top: 665px;
+		left: 0;
+		right: 0;
+		width: 90%;
+		height: 78px;
+		background: url(assets/sp/play_aime.png);
+		background-size: 100%
+	}
+}
+
+.about03-btn a {
+	display: block;
+	width: 100%
+}
+
+@media screen and (min-width:601px) {
+	.about03-btn a {
+		height: 88px
+	}
+}
+
+@media screen and (max-width:600px) {
+	.about03-btn a {
+		height: 88px
+	}
+}
+
+.about04 {
+	position: relative;
+	font-size: 0
+}
+
+@media screen and (min-width:601px) {
+	.about04 {
+		margin-top: 50px;
+		height: 562px;
+		background: url(assets/pc/play_about04.png)
+	}
+}
+
+@media screen and (max-width:600px) {
+	.about04 {
+		margin-top: 40px;
+		height: 422px;
+		background: url(assets/sp/play_about04.png);
+		background-size: 100%
+	}
+}
+
+.about04-btn,.about04-btn2 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto
+}
+
+.about04-btn2:hover,.about04-btn:hover {
+	filter: brightness(105%);
+	cursor: pointer
+}
+
+.about04-btn2:active,.about04-btn:active {
+	filter: brightness(95%);
+	transform: translateY(1px)
+}
+
+@media screen and (min-width:601px) {
+	.about04-btn {
+		top: 95px;
+		width: 708px;
+		height: 88px;
+		background: url(assets/pc/play_kihon.png)
+	}
+}
+
+@media screen and (max-width:600px) {
+	.about04-btn {
+		top: 81px;
+		width: 90%;
+		height: 78px;
+		background: url(assets/sp/play_kihon.png);
+		background-size: 100%
+	}
+}
+
+.about04-btn a {
+	display: block;
+	width: 100%
+}
+
+@media screen and (min-width:601px) {
+	.about04-btn a {
+		height: 88px
+	}
+}
+
+@media screen and (max-width:600px) {
+	.about04-btn a {
+		height: 88px
+	}
+}
+
+@media screen and (min-width:601px) {
+	.about04-btn2 {
+		top: 292px;
+		width: 708px;
+		height: 93px;
+		background: url(assets/pc/play_newfunction.png)
+	}
+}
+
+@media screen and (max-width:600px) {
+	.about04-btn2 {
+		top: 233px;
+		width: 90%;
+		height: 78px;
+		background: url(assets/sp/play_newfunction.png);
+		background-size: 100%
+	}
+}
+
+.about04-btn2 a {
+	display: block;
+	width: 100%
+}
+
+@media screen and (min-width:601px) {
+	.about04-btn2 a {
+		height: 93px
+	}
+}
+
+@media screen and (max-width:600px) {
+	.about04-btn2 a {
+		height: 93px
+	}
+}
+
+h3.titlePlay {
+	margin-bottom: 30px
+}
+
+@media screen and (min-width:601px) {
+	.PlayWrapper {
+		width: 932px;
+		margin: 0 auto
+	}
+}
+
+@media screen and (max-width:600px) {
+	.PlayWrapper {
+		width: 100%
+	}
+}
+
+@media screen and (max-width:600px) {
+	.maiPlaySub {
+		width: 95%;
+		margin: 0 auto 20px
+	}
+}
+
+.dotsLine {
+	width: 100%;
+	height: 10px;
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABEIAAAAKCAYAAACwhvtrAAABK0lEQVR4nO3dQQqCUBAG4LF9nSw7lefyAnWabD8hPEGC0tciHvH9MCA4fLMfZIzMXKrPzDEzp1Lz83n1vrZ4PB6Px+PxeDwej8fj8ZrylqYh32f4YiiPx+PxeDwej8fj8Xg8XnNelK3IVvqKoTwej8fj8Xg8Ho/H4/F4TXpRPhHZylgxmMfj8Xg8Ho/H4/F4PB6vSa/LzHtEHONzpog4bfQs4fF4PB6Px+PxeDwej8dr0jvsxLqdfXvD4/F4PB6Px+PxeDwej/dzb16E3HY0XitQHo/H4/F4PB6Px+PxeLw2vXLIZCs1x0l4PB6Px+PxeDwej8fj8Zr0lma/++HxeDwej8fj8Xg8Ho/39966+VIurD5KjZWbnNfi8Xg8Ho/H4/F4PB6Px2vHy4wnJPFPEgM9BJQAAAAASUVORK5CYII=")
+}
