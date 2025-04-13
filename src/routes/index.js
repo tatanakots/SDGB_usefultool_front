@@ -9,64 +9,72 @@ const routes = [
             {
                 path: '',
                 name: 'Home',
-                // route level code-splitting
-                // this generates a separate chunk (Home-[hash].js) for this route
-                // which is lazy-loaded when the route is visited.
                 component: () => import('../components/Home.vue'),
             },
             {
-                path: '/error',
-                name: 'error',
-                // route level code-splitting
-                // this generates a separate chunk (Home-[hash].js) for this route
-                // which is lazy-loaded when the route is visited.
+                path: 'error',
+                name: 'Error',
                 component: () => import('../components/error.vue'),
             },
             {
-                path: '/wechatqrcode',
+                path: 'wechatqrcode',
                 name: 'wechatqrcode',
-                // route level code-splitting
-                // this generates a separate chunk (Home-[hash].js) for this route
-                // which is lazy-loaded when the route is visited.
                 component: () => import('../components/wechatqrcode.vue'),
             },
             {
-                path: '/qrcode',
+                path: 'qrcode',
                 name: 'qrcode',
-                // route level code-splitting
-                // this generates a separate chunk (Home-[hash].js) for this route
-                // which is lazy-loaded when the route is visited.
                 component: () => import('../components/qrcode.vue'),
             },
             {
-                path: '/termsOfService',
+                path: 'logout',
+                name: 'logout',
+                component: () => import('../components/logout.vue'),
+            },
+            {
+                path: 'termsOfService',
                 name: 'termsOfService',
-                // route level code-splitting
-                // this generates a separate chunk (Home-[hash].js) for this route
-                // which is lazy-loaded when the route is visited.
                 component: () => import('../components/termsOfService.vue'),
             },
             {
-                path: '/sitePolicy',
+                path: 'sitePolicy',
                 name: 'sitePolicy',
-                // route level code-splitting
-                // this generates a separate chunk (Home-[hash].js) for this route
-                // which is lazy-loaded when the route is visited.
                 component: () => import('../components/sitePolicy.vue'),
             },
             {
-                // 匹配所有路径
-                path: '/:catchAll(.*)',
+                // 匹配所有未定义的路径
+                path: ':catchAll(.*)',
                 name: 'NotFound',
-                // title: t('404.title'),
                 component: () => import('../components/404.vue'),
             }
         ],
     },
-    // {
-    //     path: '/',
-    //     component: import('../App.vue'),
-    // },
+    {
+        path: '/player',
+        component: () => import('../layouts/player/Player.vue'),
+        children: [
+            {
+                path: '',
+                name: 'PlayerHome',
+                component: () => import('../components/player/Home.vue'),
+            },
+            {
+                path: 'userOption',
+                name: 'PlayerUserOption',
+                component: () => import('../components/player/userOption.vue'),
+            },
+            {
+                path: 'data',
+                name: 'PlayerData',
+                component: () => import('../components/player/playerData.vue'),
+            },
+            {
+                path: 'data/ticket',
+                name: 'PlayerTicket',
+                component: () => import('../components/player/ticket.vue'),
+            },
+        ],
+    }
 ]
 
 const router = createRouter({
@@ -75,7 +83,7 @@ const router = createRouter({
 })
 
 // router.beforeEach((to, from, next) => {
-//     const pageTitle = i18n.t(to.name); // Assuming that your translation key matches the route name
+//     const pageTitle = i18n.t(to.name); // 假设翻译 key 与路由名一致
 //     document.title = `${pageTitle} - ${i18n.t('text.description')}`;
 //     next();
 // });
