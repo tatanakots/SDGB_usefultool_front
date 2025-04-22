@@ -69,6 +69,11 @@ const routes = [
                 component: () => import('../components/player/playerData.vue'),
             },
             {
+                path: 'data/search',
+                name: 'PlayerDataSearch',
+                component: () => import('../components/player/playerData.vue'),
+            },
+            {
                 path: 'data/ticket',
                 name: 'PlayerTicket',
                 component: () => import('../components/player/ticket.vue'),

@@ -165,7 +165,7 @@ onMounted(() => {
             </div>
             <div class="clearfix"></div>
         </div>
-        <img loading="lazy" src="/img/Chara/48b0cead09dbc370.png" class="w_120 m_t_10 f_r" />
+        <img loading="lazy" src="/img/gameasset/chara/UI_Chara_000101.png" class="w_120 m_t_10 f_r" />
         <div class="comment_block break f_l f_12">
             <div class="comment_inner_block">{{ playerName }}，你好呀！欢迎使用舞萌DX科技专页~</div>
             <div class="comment_inner_block">你目前的登录状态是：{{ isLogin }}</div>
@@ -174,6 +174,7 @@ onMounted(() => {
             <div class="comment_inner_block">你上一次登录的时间是：{{ lastLoginDate }}</div>
             <div class="comment_inner_block">你上一次游玩的时间是：{{ lastPlayDate }}</div>
             <div class="comment_inner_block">你账号的封禁状态是：BS-{{ banState }}</div>
+            <div class="comment_inner_block">以上数据从账号预览接口实时获取，有些数据可能并未返回，仅供参考。</div>
         </div>
         <div class="clearfix"></div>
     </div>

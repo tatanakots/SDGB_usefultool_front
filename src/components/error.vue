@@ -21,7 +21,7 @@ const errorMsg = ref(urlParams.get('msg') || '出现未知错误。')
     </div>
     <div class="m_15 p_10">
         <button type="button" onclick="location.href='/logout/';" class="f_0"><img
-                src="https://maimai.wahlap.com/maimai-mobile/img/btn_home_logout.png" class="w_80 pointer"></button>
+                src="/img/btn_home_logout.png" class="w_80 pointer"></button>
     </div>
     <img src="/img/line_02.png" class="w_450" />
     <div class="t_c">
