@@ -64,6 +64,11 @@ const routes = [
                 component: () => import('../components/player/userOption.vue'),
             },
             {
+                path: 'userOption/updateUserOption',
+                name: 'PlayerUpdateUserOption111',
+                component: () => import('../components/player/updateUserOption.vue'),
+            },
+            {
                 path: 'data',
                 name: 'PlayerData',
                 component: () => import('../components/player/playerData.vue'),
